@@ -1,2 +1,44 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+$main-color: #F58634;
+$main-alpha: #F5863405;
+$blue-1: #A9C0FF;
+$blue-2: #3085FE;
+$blue-2-alpha: rgb(48, 133, 254,0.05);
+$green-1:#A3D139;
+$green-1-alpha:rgb(163, 209, 57,0.05);
+$green-2:#30BEB6;
+$green-2-alpha:rgb(48, 190, 182, 0.05);
+$red-1:#FF7F74;
+$red-1-alpha:rgb(255, 127, 116, 0.05);
+$dark-1: #101317;
+$gray-1: rgb(172, 175, 181,0.05);
+$gray-2: rgb(172, 175, 181,0.1);
+$gray-3: #ACAFB5;
+$button-blue: #30BEB6;
+
+@font-face {
+    font-family: "abeezee";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/ABeeZee/ABeeZee-Regular.ttf');
+}
+@font-face {
+    font-family: "lexend-regular";
+    font-style: normal;
+    font-weight: normal;    
+    src: url('../assets//fonts/Lexend/Lexend-Regular.ttf');
+}
+@font-face {
+    font-family: "lexend-medium";
+    font-style: normal;
+    font-weight: normal;    
+    src: url('../assets//fonts/Lexend/Lexend-Medium.ttf');
+}
+@font-face {
+    font-family: "lexend-light";
+    font-style: normal;
+    font-weight: normal;    
+    src: url('../assets//fonts/Lexend/Lexend-Light.ttf');
+}

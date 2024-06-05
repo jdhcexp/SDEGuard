@@ -1,0 +1,27 @@
+@import '../../../theme/variables.scss';
+
+ion-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+ion-item::part(native) {
+    height: 38px;
+    border-color: $main-color;    
+    border-width: 1px 1px 1px 16px;  
+    border-radius: 16px;
+  }
+
+ion-icon{
+    width: 20px;
+    height: 20px;
+    stroke: $main-color;    
+}
+
+ion-label{
+    font-family: 'lexend-medium';
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}

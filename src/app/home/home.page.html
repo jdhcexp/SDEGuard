@@ -1,20 +1,75 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid [fixed]="true">
+    <ion-row>
+      <ion-col class="user-info">
+        <user-id></user-id>
+      </ion-col>
+    </ion-row>
+    <shift-input></shift-input>
+    <ion-grid class="home-cards">
+      <ion-row>
+        <ion-col size="6">
+          <ion-card>
+            <div class="shift-icon">
+              <ion-icon src="../../assets/icon/login.svg"></ion-icon>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+            </div>
+            <p class="subtitle">Ingreso</p>
+            <p class="time">10:20 am</p>
+          </ion-card>
+
+        </ion-col>
+        <ion-col size="6">
+          <ion-card>
+            <div class="shift-icon">
+              <ion-icon src="../../assets/icon/logout.svg"></ion-icon>
+
+            </div>
+            <p class="subtitle">Salida</p>
+            <p class="time">07:00 pm</p>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6">
+          <ion-card>
+            <div class="shift-icon">
+              <ion-icon src="../../assets/icon/pause.svg"></ion-icon>
+
+            </div>
+            <p class="subtitle">Pausa</p>
+            <p class="time">07:00 pm</p>
+          </ion-card>
+        </ion-col>
+        <ion-col size="6">
+          <ion-card>
+            <div class="shift-icon">
+              <ion-icon src="../../assets/icon/play.svg"></ion-icon>
+
+            </div>
+            <p class="subtitle">Regreso</p>
+            <p class="time">07:00 pm</p>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-row class="separator">
+      <ion-col>
+        <div class="line"></div>
+      </ion-col>
+      <ion-col size="1"><ion-icon src="../../assets/icon/notification-bing.svg"></ion-icon></ion-col>
+      <ion-col>
+        <div class="line"></div>
+      </ion-col>
+    </ion-row>
+
+    <notification-item></notification-item>
+    <notification-item></notification-item>
+    <notification-item></notification-item>
+    <notification-item></notification-item>
+
+  </ion-grid>
+
 </ion-content>
+
+<app-footer></app-footer>

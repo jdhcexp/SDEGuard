@@ -1,27 +1,74 @@
-#container {
+@import '../../theme/variables.scss';
+
+
+.user-info {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.home-cards {
+  margin-top: 20px;
+  background-color: $gray-1;
+  border-radius: 30px 30px 0 0;
+  ion-row {
+    
+  }
+}
+
+ion-card {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  box-shadow: none;
+  border-radius: 16px;
+  background-color: #fff;
+  font-family: 'lexend-light';
+  font-size: 14px;
+  padding-top: 16px;
+  padding-left: 16px;
+
+  .subtitle {
+    margin-left: 45px;
+    margin-top: 7px;
+    color: $dark-1;
+  }
+
+  .time {
+    font-size: 20px;
+    color: $dark-1;
+    font-weight: 700;
+  }
+}
+
+.shift-icon {
+  background-color: $main-color;
+  opacity: 0.7;
+  width: 35px;
+  height: 35px;
+  float: left;
+  border-radius: 8px;
   text-align: center;
+  align-content: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  ion-icon {
+    width: 18px;
+    height: 18px;
+    stroke: $blue-2;
+  }
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.separator {
+  ion-col {
+    text-align: center;
+    align-content: center;
+    .line{
+      height: 1px;
+      background: $main-color;
+    }
+    ion-icon {
+      width: 24px;
+      height: 24px;
+      stroke: $main-color;
+    }
+  }
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}

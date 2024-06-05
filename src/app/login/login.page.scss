@@ -1,0 +1,131 @@
+@import '../../theme/variables.scss';
+
+ion-content{
+    font-family: 'lexend-medium';    
+    font-weight: 500;
+    font-size: 28px;
+    
+}
+  
+.main-image{    
+    margin-top: 68px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 183px;
+}
+
+
+.title{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 0px;
+}
+
+.subtitle{
+    margin-top: 0px;
+    color: $main-color;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 50px;
+}
+
+.keytext{
+    font-family: 'lexend-light'; 
+    margin-left: 20px;
+    font-size: 14px;
+    color: $gray-3;
+}
+
+ion-input {   
+    font-family: 'lexend-regular';
+    font-size: 20px;
+    border: 1px $main-color solid;
+    border-radius: 10px;
+    padding-left: 16px;
+    padding-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    padding-left: 50px;
+    --padding-start:20px;
+    --highlight-color-focused: #F58634;
+}
+
+.label-text{
+    color: $main-color;
+    
+    margin-top: -5px;
+}
+
+ion-button {
+    font-family: 'lexend-light';
+    font-size: 16px;
+}
+
+
+.orange-button {
+    --background: #F58634;
+    height: 50px;
+    margin: 30px 15px 0px 15px;
+
+    --border-radius: 10px;
+}
+.second-image{    
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 183px;
+}
+
+.versiontext{
+    font-family: 'lexend-light'; 
+    margin-left: 20px;
+    font-size: 14px;
+    color: $gray-3;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.ion-padding{
+    height: 100px;
+}
+
+ion-modal{
+    --border-radius: 30px;
+}
+
+.outer-check {
+    width:130px;
+    height: 130px;
+    margin-top: 30px;  
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 20px;
+    background-color: $main-alpha;
+    border-radius: 65px;  
+    .check {
+      width:90px;
+      height: 90px;
+      background-color: $main-color;
+      
+      
+      border-radius: 65px;      
+      margin-left: auto;
+      margin-right: auto;  
+      
+      ion-icon {
+     margin-top: 30px;
+     margin-left: 30px;
+        font-size: 28px;  
+        stroke: #fff;
+      }
+    }
+  }
+
+  .modal-title{    
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 0px;
+    color: $blue-2;
+}

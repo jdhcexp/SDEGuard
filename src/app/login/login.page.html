@@ -1,0 +1,48 @@
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-img class="main-image" src="../../assets/escudo.png"></ion-img>
+    </ion-row>
+    <ion-row>
+      <p class="title">Bienvenido a</p>
+    </ion-row>
+    <ion-row>
+      <p class="subtitle">SDE Guard</p>
+    </ion-row>
+    <ion-row>
+      <p class="keytext">Digite su clave para ingresar</p>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-input labelPlacement="stacked" placeholder="5.555.555-9">
+          <div class="label-text" slot="label">Cedula</div>
+        </ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-button id="open-modal" (click)="setOpen(true)" expand="block" class="orange-button">Ingresar</ion-button>
+    <ion-row>
+      <ion-img class="second-image" src="../../assets/logo-completo.png"></ion-img>
+    </ion-row>
+    <ion-row>
+      <p class="versiontext">Version 6.0</p>
+    </ion-row>
+  </ion-grid>
+  <ion-modal [isOpen]="isModalOpen" [initialBreakpoint]="0.5" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+    <ng-template>
+     
+      <ion-content class="ion-padding">
+       
+          <div class="outer-check">
+          <div class="check"><ion-icon src="../../assets/icon/tick-circle.svg"></ion-icon></div>
+          </div>
+          <ion-row>
+            <p class="modal-title">INGRESO</p>
+          </ion-row>
+          <ion-row>
+            <p class="modal-title">CORRECTO</p>
+          </ion-row>
+          <ion-button id="open-modal" (click)="setOpen(false)" expand="block" class="orange-button">Ok</ion-button>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+</ion-content>

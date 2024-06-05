@@ -1,0 +1,26 @@
+@import '../../theme/variables.scss';
+
+.user-info {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+ion-button{
+    font-family: 'lexend-light';
+    font-size: 16px;
+}
+
+.blue-button {
+    --background: #30BEB6;
+    height: 50px;
+    margin: 30px 15px 35px 15px;
+    --border-radius: 10px;    
+}
+
+.orange-button {
+    --background: #F58634;
+    opacity: 0.7;
+    height: 50px;
+    margin: 30px 15px 0px 15px;
+    --border-radius: 10px;    
+}
