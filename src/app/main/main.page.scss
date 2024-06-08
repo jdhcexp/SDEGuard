@@ -1,0 +1,73 @@
+
+@import '../../theme/variables.scss';
+
+ion-tab-bar{
+    
+    border-color: transparent;
+    height: 130px; 
+    
+    
+}
+
+ion-tab-button{
+    height: 70px;
+    width: 60px;
+    background-color: transparent;
+    --padding-end: 5px;
+    --padding-start: 5px;
+    --color-selected: transparent;
+}
+
+.clock-tab{
+    margin-top: -30px;
+    width: 96px;
+    height: 96px;
+    
+}
+
+.outer-clock {
+    
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+    border-radius: 50px;   
+    padding-left: 8px;
+    .clock {
+        width: 85px;
+        height: 85px;
+        background-color: $main-color;
+        border: 4px $blue-1 solid;
+        padding: 17px;
+        border-radius: 50px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;  
+        ion-icon {
+          margin-top: 10px;
+          font-size: 24px;  
+          stroke: #fff;
+        }
+      }
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+    border: 1px $main-color solid;
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 10px;
+    p {
+        font-family: 'abeezee';        
+        font-size: 12px;
+        color: $main-color;
+      }
+    ion-icon {       
+        font-size: 24px;  
+        stroke: $main-color;
+        
+      }
+}
